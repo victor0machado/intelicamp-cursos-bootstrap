@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2d6f0;
+}
+
+#apresentacao img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#conteudo {
+    background-color: #7C11F8;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#conteudo a {
+    color: white;
+}
+
+#conteudo p {
+    margin: 10px 0 10px 0;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Roboto Mono', sans-serif;
+    text-transform: uppercase;
+}
+
+#layout1 a, #layout2 a {
+    text-decoration: none;
+}
+
+#layout1 p, #layout2 p {
+    text-align: center;
+}
+
+#layout1 .btn {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #7C11F8;
+    color: #7C11F8;
+}
+
+#layout1 .btn:hover {
+    background-color: #7C11F8;
+    color: white;
+    border: 2px solid #7C11F8;
+}
+
+#layout2 {
+    background-color: #7C11F8;
+}
+
+#layout2 .btn {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#layout2 .btn:hover {
+    background-color: #fff;
+    color: #7C11F8;
+    border: 2px solid #fff;
+}
